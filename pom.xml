@@ -15,7 +15,7 @@
     </parent>
     <groupId>za.co.douglas.chifetete</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>my-pet-clinic</name>
     <description>My version of the Spring Pet clinic project</description>
     <properties>
@@ -32,6 +32,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -43,6 +44,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mufukuri/my-petclinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>my-pet-clinic-0.0.2</tag>
   </scm>
 </project>
